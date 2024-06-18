@@ -1,0 +1,8 @@
+data
+requirements
+coverage
+tests
+.prettier*
+tsconfig.*
+jest.config.js
+.gitignore
