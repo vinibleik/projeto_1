@@ -3,18 +3,18 @@
   "version": "0.0.1",
   "main": "lib/main.js",
   "types": "lib/main.d.ts",
+  "module": "common",
   "bin": {
     "city-reporter": "./lib/bin/city_reporter.js"
   },
   "scripts": {
-    "start": "node lib/main.js",
+    "start": "npm run build && node lib/index.js",
     "build": "tsc",
     "format": "prettier . --write",
     "clean": "rm -rf lib",
     "test": "jest"
   },
   "files": [
-    "bin",
     "lib"
   ],
   "keywords": [],
