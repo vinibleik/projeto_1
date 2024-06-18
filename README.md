@@ -79,6 +79,8 @@ npm install @paradoxo/city-reporter
 ```
 
 E para executar o cli é necessário utilizar o comando `npx` juntamente com o nome do pacote:
+E claro que os arquivos contendo as cidades devem ser passados como argumento e estarem
+presentes no diretório `data` de onde for executar o comando.
 
 ```bash
 npx city-reporter -p json_1 -f html_1 -i data/cidades-1.json -o out.html
